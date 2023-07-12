@@ -1,0 +1,23 @@
+
+.movie{
+    padding: 5px 25px 10px 25px;
+    max-width: 25%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    transition: transform .2s;
+}
+.movie:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+.movie-title{
+    font-size: 25px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.movie-year{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

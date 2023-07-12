@@ -1,0 +1,12 @@
+.page-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+.page-btn{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
